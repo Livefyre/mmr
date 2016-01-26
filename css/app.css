@@ -119,6 +119,11 @@ body {
   margin-left: -8px;
 }
 
+.arrow.closed:after {
+  border-color: rgba(226, 204, 188, 0);
+  border-bottom-color: #ff0000;
+}
+
 .arrow.bottom:after {
   top: 100%;
   left: 50%;
@@ -134,6 +139,11 @@ body {
   margin-left: -8px;
 }
 
+.arrow.bottom.closed:after {
+  border-color: rgba(226, 204, 188, 0);
+  border-top-color: #ff0000;
+}
+
 .arrow.left:after {
   right: 100%;
   top: 50%;
@@ -147,6 +157,11 @@ body {
   border-right-color: #0096ef;
   border-width: 8px;
   margin-top: -8px;
+}
+
+.arrow.left.closed:after {
+  border-color: rgba(226, 204, 188, 0);
+  border-right-color: #ff0000;
 }
 
 .arrow.right:after {
@@ -175,6 +190,10 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.sign.closed {
+  background-color: #ff0000;
 }
 
 .sign:before {
